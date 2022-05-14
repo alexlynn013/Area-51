@@ -1,5 +1,7 @@
 package Oop;
 
+import java.util.Arrays;
+
 public class LargestNumber {
 
     public static void main(String[] args) {
@@ -8,6 +10,10 @@ public class LargestNumber {
 
         int nums [] = {0,9,6,7,3,33,8,10,};
 
+
+        System.out.println(Arrays.toString(nums));
+
+        /*
         int lnum = nums [0];
 
         for (int i = 0; i < nums.length; i++) {
@@ -16,6 +22,8 @@ public class LargestNumber {
 
         }
         System.out.println(lnum);
+
+         */
 
 
        /*
